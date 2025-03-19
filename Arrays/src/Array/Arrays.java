@@ -98,7 +98,7 @@ public class Arrays {
 }
 */
 //autoboxing-convert primitive to wrapper classes
-//unboxing - converting wrappere to primitive datatypes
+//unboxing - converting wrapper to primitive datatypes
 //Integer a= Interger.valueof(100);
 //int b =a;
 
