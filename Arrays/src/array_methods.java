@@ -8,8 +8,7 @@ public class array_methods {
 		for(int i=0;i<arr.length;i++) {
 			arr[i]=sc.nextInt();
 		}
-		sum(arr);
-		
+		sum(arr);		
 	}
 	public static void sum(int[] array) {
 		int sum=0;
@@ -17,5 +16,4 @@ public class array_methods {
 			sum+=array[i];
 		}System.out.println(sum);
 	}
-
 }

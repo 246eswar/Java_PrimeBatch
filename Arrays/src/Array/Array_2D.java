@@ -13,8 +13,7 @@ public class Array_2D {
 				marks[rows][cols]=sc.nextInt();
 			}
 		}print(marks,r_s,c_s);
-		System.out.println(multiply(marks,r_s,c_s));
-		
+		System.out.println(multiply(marks,r_s,c_s));		
 	}
 	public static void print(int[][] array,int r_s,int c_s) {
 		for(int rows=0;rows<r_s;rows++) {

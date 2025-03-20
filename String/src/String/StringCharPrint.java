@@ -7,9 +7,11 @@ public class StringCharPrint {
 		String t=sc.nextLine();
 		System.out.println(s.concat(t));
 		for(int i=0;i<s.length();i++) {
-			System.out.println(s.charAt(i));
-			System.out.print(t.charAt(i)+" ");
+			System.out.print(s.charAt(i)+" ");			
 		}
-	}
-
+		for(int i=0;i<t.length();i++) {
+			System.out.print(t.charAt(i)+" ");			
+		}		
+	}	
 }
+

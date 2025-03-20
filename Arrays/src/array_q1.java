@@ -9,13 +9,11 @@ public class array_q1 {
     	 for (int i=0;i<n;i++){
     	   arr[i]=sc.nextInt();
     	 }
-    	 int count=0;
-    	 
+    	 int count=0;    	 
     	 for(int i=0;i<arr.length;i++){
     	   if(tar==arr[i] && arr[0]==arr[arr.length-1]){
     	     count+=1;
     	   }
-    	 }
-    	  System.out.println(count);
+    	 }System.out.println(count);
      }
 }

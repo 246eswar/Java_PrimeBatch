@@ -13,7 +13,7 @@ public class Array_q2_checksubarrayelement {
    	 int sz=sc.nextInt();
    	 int count=0;
    	 int divisions=arr.length/sz;
-   	 for(int j=0;j<arr.length;j+=j+sz){
+   	 for(int j=0;j<arr.length;j=j+sz){
    		 for(int k=0;k<sz;k++) {
    			 if(arr[k]==t){
    				 count++;

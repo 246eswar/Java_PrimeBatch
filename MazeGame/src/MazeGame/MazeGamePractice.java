@@ -57,23 +57,15 @@ public class MazeGamePractice {
 		}
 	}
 	public static void MoveUp(){
-		if(row>0&&maze[row-1][col]!=Wall) {
-			row--;
-		}
+		if(row>0&&maze[row-1][col]!=Wall) 	row--;
 	}
 	public static void MoveDown() {
-		if(row<maze.length && maze[row+1][col]!=Wall) {
-			row++;
-		}
+		if(row<maze.length && maze[row+1][col]!=Wall) row++;
 	}
 	public static void MoveRight() {
-		if(col<maze[0].length && maze[row][col+1]!=Wall) {
-			col++;
-		}
+		if(col<maze[0].length && maze[row][col+1]!=Wall) 	col++;
 	}
 	public static void MoveLeft() {
-		if(col>0&&maze[row][col-1]!=Wall) {
-			col--;
-		}
+		if(col>0&&maze[row][col-1]!=Wall)	col--;
 	}
 }
