@@ -22,5 +22,4 @@ public class JaggedArray2D {
 			}System.out.println();
 		}
 	}
-
 }

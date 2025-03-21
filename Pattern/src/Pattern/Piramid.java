@@ -8,9 +8,9 @@ public class Piramid {
     		 for(int s=1;s<=n-r;s++) {
     			 System.out.print(" ");
     		 }
-    		 for(int sr=1;sr<=r;sr++
-    				 ) {
+    		 for(int sr=1;sr<=r;sr++) {
     			 System.out.print("* ");
-    		 }System.out.println();    	 }
+    		 }System.out.println();    	
+    		 }
      }
 }

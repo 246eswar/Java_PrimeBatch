@@ -15,11 +15,8 @@ public class CompareIgnore {
 		for(int i=0;i<small;i++) {
 			char ch1=s.charAt(i);
 			char ch2=t.charAt(i);
-			if(ch1==ch2 || (int)(ch1-ch2)==32||(int)(ch1-ch2)==-32) {
-				continue;
-			}else {
-				return (int)(ch1-ch2);
-			}
+			if(ch1==ch2 || (int)(ch1-ch2)==32||(int)(ch1-ch2)==-32) continue;
+			else return (int)(ch1-ch2);
 		}return s.length()-t.length();	
 	}
 }

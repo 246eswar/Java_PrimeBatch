@@ -51,7 +51,7 @@ public class PrintNumberTriangle {
 		int n=sc.nextInt();
 		int k=sc.nextInt();
 		int j=k;
-		for  (int i=1;i<=n;i++) {							
+		for (int i=1;i<=n;i++) {							
 			System.out.println(k);
 			k=k*10+j;				
 		}
