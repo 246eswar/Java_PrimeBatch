@@ -3,7 +3,7 @@ package Oops;
 //                also called as compile time polymorphism --during compile time it check arguments and call that method
 //- 2.method OverRiding --Run time polymorphism (compile time no ovrloading is done --during run child method call
 //                      -- define same thing again 
-//(Different class parameters(Arguments) same return type same method name same
+//(Different class, parameters(Arguments) same ,return type same, method name same
 public class PolyMor {
 	public static void main(String[] args) {
 		//method overriding

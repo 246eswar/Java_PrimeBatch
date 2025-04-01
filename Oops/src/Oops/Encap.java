@@ -6,7 +6,7 @@ package Oops;
 //Spring project encapsulation is there
 //encapsulation(private) is used where security is needed
 //private variable is we use "this" keyword for passing data
-//Encapsulation is  a type of Opps which is providing security using private keyword.
+//Encapsulation is  a type of Oops which is providing security using private keyword.
 //to access the the private variable,methods using setters and getters(Conventional methods)
 public class Encap {
 	public static void main(String[] args) {
