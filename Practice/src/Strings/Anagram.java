@@ -20,7 +20,7 @@ public class Anagram {
 		Arrays.sort(arr2);
 		System.out.print(Arrays.toString(arr1));
 		System.out.print(Arrays.toString(arr2));
-		if(Arrays.sort(arr1)==Arrays.sort(arr2))
+		//if(Arrays.sort(arr1)==Arrays.sort(arr2))
 		}
 	}
 }
