@@ -8,8 +8,9 @@ package Throw;
 //unchecked exception both
 //throw is explicitly object created
 //we can declare multiple exceptions using throws
+//single exception throw used
 //class.forName---***see Once
-//3 methods to geta exception
+//3 methods to get a exception
 public class Throws {
 	public static void eligibility(int a) throws ClassNotFoundException {
 		
